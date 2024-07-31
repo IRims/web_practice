@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+
+.tBtn{
+
+    width: 90px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    color: black; 
+    cursor:pointer;
+    background-color: white;
+    font-family: consolas,monospace;
+}
+
+#timeDisplay{
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    background-color: white;
+    color: black;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+}
+
+#timeContainer{
+    text-align: center;
+    width: 500px;
+    border: 3px solid;
+    border-color: white;
+}

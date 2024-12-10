@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Dev Finder</title>
+    <link rel="icon" href="./Assets/images/git-brands-solid.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="main-heading"> <i class="fa-brands fa-square-git"></i> GitHub Dev Finder </h1>
+        </div>
+        <div class="sub-heading">
+            <input type="text" id="username" placeholder="Enter GitHub username" />
+            <button onclick="fetchGitHubData()">Fetch Details</button>
+        </div>
+        <div id="result" class="sub-heading" style="display: none;">
+            <div id="user-avatar"></div>
+            <h2>User Details</h2>
+            <p id="user-details"></p>
+            <h2>Repositories</h2>
+            <ul id="repo-list"></ul>
+        </div>
+    </div>
+    <script src="./Assets/js/fetch.js"></script>
+</body>
+
+</html>

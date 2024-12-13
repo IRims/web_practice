@@ -1,0 +1,4 @@
+# for vs code settings
+.vscode/
+# for node modules if any 
+node_modules/

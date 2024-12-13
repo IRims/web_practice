@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <!-- fontawsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Contact List</h1>
+
+        <div class="filter-section">
+            <h2>Filter by Name</h2>
+            <div class="row">
+                <input type="text" name="filter" placeholder="Enter name to filter">
+                <button id="filter-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <div id="contactList"></div>
+    </div>
+    <!-- js file -->
+    <script src="./Assets/JS/app.js"></script>
+</body>
+
+</html>
